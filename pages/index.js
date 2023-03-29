@@ -21,6 +21,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta name="google" content="notranslate" key="notranslate" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Sidney is re-learning basics of next.js</p>
